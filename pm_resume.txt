@@ -1,0 +1,70 @@
+PAVAN PATTANADA
+3700 Parkview Lane Apartment 6D Irvine,CA 92612
+http://www.linkedin.com/in/pavanpattanada
+pattanad@uci.edu
+(949) 743-4307
+
+TECHNICAL SKILLS
+• Languages: C/C++ , Java
+• Familiar: HTML, SQL, Perl, Shell, SpecC, Clearcase, Perforce, cscope, Doxygen, GNU make, Hadoop, Hbase
+• Platforms: Windows, Linux, VxWorks
+
+EDUCATION
+Master of Science, Computer Engineering
+University of California Irvine, CA
+GPA 3.70
+December 2013
+Coursework: Design and Analysis of Algorithms, Computer Architecture, Advance compiler construction, Embedded
+and Ubiquitous Systems, Program Analysis, Distributed System Architecture, System on Chip (Software synthesis).
+
+Bachelor of Engineering, Electronics and Communications
+Sri Jayachamarajendra College of Engineering, Mysore, India
+GPA 4.0 (equivalent)
+June 2008
+
+PROFESSIONAL EXPERIENCE
+Broadcom
+Jun - Sep 2013
+SoC Performance Architecture team, Irvine, CA
+(Internship)
+• Developed a static analysis tool using the LLVM-Clang compiler infrastructure which was used to optimize memory
+utilization in the production environment of a mobile chipset. [C++, LLVM/Clang]
+
+Alcatel-Lucent (Wireless BU), Bangalore, India
+Mar 2010 - Aug 2012
+MGR(MultiGeneration Radio) Platform Team
+(Senior Software Engineer)
+• Code development for the low level platform APIs ready to be by various applications like Call-processor, Operation
+and Management Services of the 3G base stations (called as NodeB). [C]
+• Target Environments : Linux and VxWorks operating systems
+
+Alcatel-Lucent (Ventures), Bangalore, India
+NLG (Nonstop Laptop Guardian) Team
+• Development and maintenance various software modules in the product.
+Jul 2008 - Feb 2010
+(Software Engineer)
+[C]
+• Environment consisted of Unix and C code base with Operating System concepts, Device Drivers, File Systems,
+Socket programming and IPC
+
+SELECT ACADEMIC PROJECTS
+• Multimedia Benchmarking on an emulated ARMv8 ISA
+Winter 2013
+Emulation/Simulation of an ARMv8 ISA using ARMs Foundation models, boot up a Linux operating system and
+benchmark the MediaBench multimedia benchmark after cross-compiling the software and profiling it on the ARM
+ISA using the perf utility. [C]
+• Software Synthesis of a MP3 decoder using SpecC
+Spring 2013
+Study the SpecC language and perform software synthesis of the MP3 audio decoder (MAD - libmad). It involves
+modeling of the system using HW/SW codesign. [C]
+• An Optimizing Compiler written for a MIPS architecture
+Winter 2013
+Construction of a compiler from first principles with optimizations such as Copy propagation and Common Subex-
+pression Elimination for a simple programming language on MIPS architecture. [Java]
+• Compiler Security
+Ongoing
+Randomize Instruction Scheduling (for ARM ISA )thereby changing the signature of the binary making it difficult to
+reverse engineer using ROP (Return Oriented Programming) techniques. [C++, LLVM/Clang]
+• Other projects include Implementation of a Boolean SAT solver, Study on Power efficiency in Heterogenous
+Multiprocessor Architecture and Static Analysis of programs using SOOT infrastructure performing DFA, 0-
+CFA and 1-CFA analysis. [Java, SOOT]

@@ -1,0 +1,143 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{system} 
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{12pt} % allow room for 2-line header
+\setlength{\headsep}{12pt}  % space between header and text
+\setlength{\headheight}{12pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it Pavan Pattanada}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.8in % start text higher on the page
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{margin=0.5in} % for example, change the margins to 2 inches all round
+\addtolength{\topmargin}{-5mm}
+
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+%\name{PAVAN PATTANADA\\[12pt]}% the \\[12pt] adds a blank line after name
+
+\address{{\Large PAVAN PATTANADA }\vspace{12pt} \\ 3700 Parkview Lane Apartment 6D Irvine,CA 92612}      
+                                      
+\address{\hfill {http://www.linkedin.com/in/pavanpattanada}\\
+  \hfill pattanad@uci.edu \\ \hfill (949) 743-4307 }
+
+
+
+\begin{resume}
+\section {TECHNICAL SKILLS}
+\hrulefill
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Languages: Java, C
+   \item Familiar: HTML, SQL, C++, Perl, Shell, SpecC, Clearcase, Perforce, cscope,
+ Doxygen, GNU make, Hadoop, Hbase
+   \item Platforms: Windows, Linux, VxWorks
+ \end{itemize}
+\vspace{0.2in} 
+ 
+\section{EDUCATION} 
+\hrulefill 
+%\vspace{-3pt}
+ 
+{\bfseries Master of Science, Computer Engineering} \\
+{\bfseries University of California Irvine}, CA \hspace{0.2in}  GPA 3.70
+\hfill {\bfseries December 2013} \\
+Coursework: Design and Analysis of Algorithms, Computer Architecture, Advance
+compiler construction, Embedded and Ubiquitous Systems, Program Analysis,
+Distributed System Architecture, System on Chip (Software synthesis). 
+
+%\vspace{-3pt}
+\vspace{0.2in} 
+ 
+{\bfseries Bachelor of Engineering, Electronics and Communications} \\ % \sl will be bold italic in
+					 % New Century Schoolbook (or
+					 % any postscript font) and
+					 % just slanted in Computer
+					 % Modern (default) font
+{\bfseries Sri Jayachamarajendra College of Engineering}, Mysore, India
+\hspace{0.2in}  GPA 4.0 (equivalent)
+\hfill    {\bfseries June 2008}
+  
+\vspace{0.2in} 
+%\vspace{-3pt}
+\section{{PROFESSIONAL EXPERIENCE}} 
+\hrulefill \\
+{\bfseries Broadcom} \hfill         {\bfseries Jun - Sep 2013} \\
+SoC Performance Architecture team, Irvine, CA       \hfill   (Internship)
+  
+   \begin{itemize} \itemsep 2pt % reduce space between items
+   \item Developed a static analysis tool using the {\bfseries LLVM-Clang} compiler
+   infrastructure which was used to optimize memory
+   utilization in the production environment of a mobile chipset.
+ \end{itemize}
+{\bfseries   Alcatel-Lucent (Wireless BU), Bangalore, India} \hfill
+{\bfseries Mar 2010 - Aug 2012} \\
+MGR(MultiGeneration Radio) Platform Team \hfill (Senior Software Engineer)
+
+ \begin{itemize} \itemsep 2pt
+  \item  Code development for the low level platform APIs ready to be by
+  various applications like Call-processor, Operation and Management Services
+  of the 3G base stations (called as NodeB). 
+  \item  Target Environments : Linux and VxWorks operating systems 
+\end{itemize} \vspace{-6pt}
+
+{\bfseries   Alcatel-Lucent (Ventures), Bangalore, India} \hfill    {\bfseries
+Jul 2008 - Feb 2010} \\
+NLG (Nonstop Laptop Guardian) Team \hfill (Software Engineer)
+ \begin{itemize} \itemsep 2pt
+ \item Development and maintenance various
+software modules in the product.
+ \item Environment consisted of Unix and C code base with Operating system concepts, device drivers, file
+ systems, networking concepts and IPC
+\end{itemize} \vspace{-6pt}
+\vspace{0.2in} 
+
+\section {SELECT ACADEMIC PROJECTS}
+\hrulefill
+ \begin{itemize} \itemsep 2pt
+ \item {\bfseries Compiler Security } \hfill {\bfseries Ongoing} \\
+ Randomize Instruction Scheduling thereby changing the signature of the binary
+ making it difficult to reverse engineer using ROP (Return Oriented
+ Programming) techniques.
+ \item {\bfseries An Optimizing Compiler written for a MIPS architecture}
+ \hfill {\bfseries Jan - March 2013} \\
+ Construction of a compiler with optimizations such as Copy propagation and Common Subexpression
+ Elimination for a simple programming language on
+ MIPS architecture.
+ \item {\bfseries Static Analysis of Programs} \hfill {\bfseries Apr - Jun
+ 2013} \\
+ Static analysis of JAVA programs using {\bfseries SOOT} infrastructure which included
+ techniques like {\it Data Flow Analysis (DFA)}, {\it Constraint
+ Based Analysis}, {\it Abstract Interpretation} , { \it Type and
+ Effect System} and {\it Scalable Inter-Procedural Analysis}.
+ \item Other projects include {\bfseries Boolean SAT solver}, {\bfseries
+ Multimedia Benchmarking} on an
+ emulated {\bfseries ARMv8 ISA} , {\bfseries Software synthesis of an MP3
+ decoder} using {\bfseries SpecC} and study
+ on {\bfseries Heterogeneous Multiprocessing Architecture} 
+
+ \end{itemize}
+
+ 
+ 
+\end{resume} 
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
